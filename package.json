@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "async": "^1.4.2",
     "robotjs": "^0.2.4"
   }
 }
