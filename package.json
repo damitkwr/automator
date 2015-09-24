@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Philipp Burckhardt",
+    "email": "pburckhardt@outlook.com"
+  },
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.2",
+    "compute-incrspace": "^1.0.2",
+    "fs-extra": "^0.24.0",
     "mkdirp": "^0.5.1",
     "robotjs": "^0.2.4"
   }
