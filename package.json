@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin" : { "download-medent-pdfs" : "./lib/index.js" },
+  "bin": {
+    "download-medent-pdfs": "./lib/index.js"
+  },
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
@@ -14,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.2",
+    "bcrypt": "^2.0.1",
     "compute-argmin": "^1.0.1",
     "compute-incrspace": "^1.0.2",
     "fs-extra": "^0.24.0",
@@ -22,6 +25,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.11.1",
     "moment-range": "^2.1.0",
+    "nodejs": "0.0.0",
     "robotjs": "^0.3.7",
     "textract": "^1.2.1",
     "validate.io-array": "^1.0.6"
